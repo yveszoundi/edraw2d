@@ -4,6 +4,8 @@
 
 It's a simple utility to compute a list of points between a source and a destination ([[https://en.wikipedia.org/wiki/Euclidean_shortest_path][Euclidean shortest path]]). It bundles a tiny subset of [[https://github.com/eclipse/gef-legacy/tree/master/org.eclipse.draw2d][Eclipse draw2d classes]] (altered to remove any [[https://www.eclipse.org/swt/][SWT]] dependency).
 
+The only "real" custom class added is =RRouter=: it's called =RRouter= because the name is good.
+
 * How is this used?  
 
 This is currently used for custom drawing via [[https://github.com/archimatetool/archi-scripting-plugin][jArchi]] scripts ([[https://github.com/yveszoundi/archi-humaneimage][Humane Image scripts]]). For general purposes, it's probably better to integrate Eclipse draw2d [[https://mvnrepository.com/artifact/org.eclipse/draw2d][directly]] in your projects.
